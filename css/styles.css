@@ -49,7 +49,7 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--pimary-text-color);
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 25px;
     
 }
@@ -160,7 +160,7 @@ font-weight: 900;
 }
 /*---------------Section-------------*/
 .subtitle {
-    padding-top: 94px;
+    padding-top: 94px ;
     
 }
 .section-team {
@@ -194,8 +194,8 @@ font-weight: 900;
     color: var(--pimary-text-color);
 }
 .work {
-padding: 94px;
-p
+padding: 94px 0;
+
 }
 .list {
     display: flex;
@@ -379,15 +379,19 @@ padding: 20px 24px;
         
 }
 .footer-list {
-   padding-top: 20px;
+   
 }
 .footer-items {
     margin-bottom: 9px;
 }
+.footer-items: last-child {
+    margin-bottom: 0;
+}
+
 .contact-link:hover,
 .contact-link:focus {
     color: var(--white-color);
 }
-.adress {
-    
+.contact {
+    margin-top: 20px;
 }
